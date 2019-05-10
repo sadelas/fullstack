@@ -1,9 +1,0 @@
-note over selain:
-selain lähettää uuden muistiin panon
-mikä tallennetaan
-ja rendeöi sen näytölle
-vastauksena palvelimelta tulee viesti onnistumisesta
-end nore
-
-selain -> palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
-palvelin -> selain: {"message":"note created"}
